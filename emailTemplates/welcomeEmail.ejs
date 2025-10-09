@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <p>Hi <%= name %>,</p>
+    <br>
+    <p>Your account has been created successfully. You can now log in using the credentials below:</p>
+    <p>
+        <strong>Email:</strong> <%= to %><br>
+        <strong>Temporary Password:</strong> <strong><%= temporaryPassword %></strong>
+    </p>
+    <br>
+    <p>For security reasons, we recommend that you change your password after your first login.</p>
+    <p>Please click on the following link, or paste this into your browser after login to complete the process:</p>
+    <a href="<%= changePasswordUrl %>"><%= changePasswordUrl %></a>
+</body>
+</html>
