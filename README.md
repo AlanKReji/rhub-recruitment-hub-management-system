@@ -101,7 +101,3 @@ We welcome contributions! Please fork the repository, create a feature branch, a
 ## 📄 License
 
 This project is licensed under the **ISC License**.
-
-<div align="center">
-  <h3>Made with ❤️ by the RHub Team</h3>
-</div>
