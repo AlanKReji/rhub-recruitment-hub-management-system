@@ -1,157 +1,107 @@
 <div align="center">
-  <h1>🚀 RHub - Recruitment Hub Management System</h1>
-  <p><strong>A robust Node.js/Express backend for streamlined recruitment workflows</strong></p>
-  <p>
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
-    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
-    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
-    <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT">
-  </p>
+  <h1>🚀 RHub - Recruitment Hub Management System</h1>
+  <p><strong>The fast, robust Node.js/Express backbone for seamless recruitment 🧑‍💻</strong></p>
+  <p>
+    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+    <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+    <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+    <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT">
+  </p>
 </div>
 
 ---
 
-## ✨ Features
+## ✨ Key Features
 
-<table>
-  <tr>
-    <td>📋 <strong>People Requisitions Management</strong></td>
-    <td>Manage job requisitions with detailed job and department information</td>
-  </tr>
-  <tr>
-    <td>🔐 <strong>Role-Based Access Control</strong></td>
-    <td>Secure workflows for HRBP and Recruiters with approval processes</td>
-  </tr>
-  <tr>
-    <td>📧 <strong>Email Notifications</strong></td>
-    <td>Automated emails for job description uploads, approvals, and updates</td>
-  </tr>
-  <tr>
-    <td>📁 <strong>Document Management</strong></td>
-    <td>Upload and download job descriptions with secure file handling</td>
-  </tr>
-  <tr>
-    <td>🔒 <strong>Authentication & Authorization</strong></td>
-    <td>JWT-based secure authentication and role-based permissions</td>
-  </tr>
-  <tr>
-    <td>📚 <strong>API Documentation</strong></td>
-    <td>Comprehensive Swagger UI documentation for all endpoints</td>
-  </tr>
-  <tr>
-    <td>🔍 <strong>Advanced Querying</strong></td>
-    <td>Pagination, filtering, and sorting for efficient data retrieval</td>
-  </tr>
-</table>
+RHub is the central hub for managing hiring workflows, ensuring every step from requisition to final approval is tracked efficiently.
+
+* **Smooth PR Management:** Handle new **People Requisitions (PR)** with detailed job and department tracking.
+* **Secure Access (RBAC):** **Role-Based Access Control** secures workflows for HRBPs and Recruiters, especially during approval processes.
+* **Smart Email Alerts:** Automated **email notifications** for JD uploads, approvals, and status changes.
+* **Document Handling:** Securely **upload and download** job descriptions (JDs) and other files.
+* **Ironclad Security:** **JWT-based authentication** and role-based permissions throughout the API.
+* **API Docs:** Comprehensive **Swagger UI documentation** available for all endpoints.
+* **Data Power Tools:** Built-in **pagination, filtering, and sorting** for efficient data retrieval.
+
+---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
-  <table>
-    <tr>
-      <th>Backend</th>
-      <th>Database</th>
-      <th>Authentication</th>
-      <th>Other</th>
-    </tr>
-    <tr>
-      <td>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"><br>
-        <img src="https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white">
-      </td>
-      <td>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"><br>
-        <img src="https://img.shields.io/badge/Mongoose-880000?style=flat&logo=mongoose&logoColor=white">
-      </td>
-      <td>
-        <img src="https://img.shields.io/badge/JWT-000000?style=flat&logo=jsonwebtokens&logoColor=white"><br>
-        <img src="https://img.shields.io/badge/bcrypt-000000?style=flat&logo=bcrypt&logoColor=white">
-      </td>
-      <td>
-        <img src="https://img.shields.io/badge/Multer-FF6B35?style=flat&logo=multer&logoColor=white"><br>
-        <img src="https://img.shields.io/badge/Nodemailer-339933?style=flat&logo=nodemailer&logoColor=white"><br>
-        <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=black"><br>
-        <img src="https://img.shields.io/badge/Winston-000000?style=flat&logo=winston&logoColor=white">
-      </td>
-    </tr>
-  </table>
-</div>
+Built on a modern, scalable MERN-adjacent stack.
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js (v14 or higher)
-- MongoDB
-- npm or yarn
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd RHub-Recruitment-Hub-Management-System
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Environment Setup**
-   - Create a `.env` file in the root directory
-   - Configure environment variables:
-     ```
-     PORT=5000
-     MONGO_URI=your_mongodb_connection_string
-     JWT_SECRET=your_jwt_secret
-     EMAIL_USER=your_email@example.com
-     EMAIL_PASS=your_email_password
-     ```
-
-4. **Start the server**
-   ```bash
-   npm start
-   ```
-
-5. **Access the application**
-   - API Base URL: `http://localhost:5000`
-   - API Documentation: `http://localhost:5000/api-docs`
-
-## 📁 Project Structure
-
-```
-RHub-Recruitment-Hub-Management-System/
-├── config/           # Database, logger, and mailer configurations
-├── controllers/      # Route handlers and business logic
-├── dbqueries/        # Database query abstractions
-├── emailTemplates/   # Email notification templates
-├── middlewares/      # Authentication, error handling, and upload middlewares
-├── models/           # Mongoose data models
-├── routes/           # Express route definitions
-├── services/         # Business logic services
-├── seeder/           # Database seeding scripts
-├── utils/            # Utility functions and helpers
-├── validators/       # Input validation logic
-├── server.mjs        # Main application entry point
-└── package.json      # Project dependencies and scripts
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the ISC License - see the [LICENSE](LICENSE) file for details.
+| Category | Key Technologies |
+| :--- | :--- |
+| **Backend** | **Node.js**, **Express.js** |
+| **Database** | **MongoDB**, Mongoose |
+| **Authentication** | **JWT** (JSON Web Tokens), bcrypt |
+| **Other Tools** | Multer, Nodemailer, Winston (Logging), Swagger |
 
 ---
 
+## 🚀 Getting Started (Local Setup)
+
+### Prerequisites
+
+You must have **Node.js (v14+)** and a running **MongoDB** instance (or connection string).
+
+### Installation
+
+1.  **Clone the repo:**
+    ```bash
+    git clone <repository-url>
+    cd RHub-Recruitment-Hub-Management-System
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+
+3.  **Configure Environment:**
+    Create a `.env` file and set the necessary variables (e.g., `PORT`, `MONGO_URI`, `JWT_SECRET`, `EMAIL_USER`, `EMAIL_PASS`).
+
+4.  **Start the server:**
+    ```bash
+    npm start
+    ```
+
+### Access Points
+
+* **API Base URL:** `http://localhost:5000`
+* **API Documentation (Swagger):** `http://localhost:5000/api-docs`
+
+---
+
+## 📁 Project Structure
+
+The project uses a modular architecture for clarity and maintenance:
+
+```
+RHub-Recruitment-Hub-Management-System/
+├── config/           # App, DB, Logger, and Mailer configurations
+├── controllers/      # Route handlers (Request logic)
+├── dbqueries/        # Database query abstractions
+├── middlewares/      # Auth, Error Handling, and Upload middlewares
+├── models/           # Mongoose Data Schemas
+├── routes/           # Express Route Definitions
+├── services/         # Core Business Logic (Application layer)
+├── utils/            # Helper and utility functions
+├── server.mjs        # Main application entry point
+└── package.json
+
+```
+---
+
+## 🤝 Contributing
+
+We welcome contributions! Please fork the repository, create a feature branch, and open a **Pull Request** to the `main` branch.
+
+---
+
+## 📄 License
+
+This project is licensed under the **ISC License**.
+
 <div align="center">
-  <p>Made with ❤️ by the RHub Team</p>
+  <h3>Made with ❤️ by the RHub Team</h3>
 </div>
